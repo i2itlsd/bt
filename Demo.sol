@@ -27,3 +27,11 @@ contract Demo {
     // If you want to make 'newbal' directly accessible, you can do so like this:
     // uint public newbal = 3500;
 }
+
+
+/*
+newbal: Holds the current balance of the contract.
+deposit(uint x): Allows the user to deposit money into the contract by increasing the balance.
+withdraw(uint x): Allows the user to withdraw money, ensuring there's enough balance before proceeding.
+show(): Displays the current balance.
+*/
