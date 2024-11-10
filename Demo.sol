@@ -2,7 +2,7 @@
 pragma solidity ^0.8.26;
 
 contract Demo {
-    uint private newbal = 3500;
+    uint private newbal = 0;
 
     // Deposit function to increase the balance
     function deposit(uint x) public {
